@@ -1,16 +1,19 @@
-import Loginsection from './Loginsection';
 import React from 'react';
-import Navbar from './Navbar';
-import Home from './Home';
+import ContactFooter from './Components/ContactFooter';
+import Features from './Components/Features';
+import Loginsection from './Components/Loginsection';
+import Navbar from './Components/Navbar';
+
+
 function App() {
   return (
     <div>
       <Navbar/>
       <Loginsection/>
-      
+      <Features/>
+      <ContactFooter/>
       {/* <Home/> */}
     </div>
-    
   );
 }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from './Cards.png';
+import image from '../Assets/Cards.png';
 export default function Loginsection() {
   return <div className="Loginsection">
 
@@ -34,10 +34,11 @@ export default function Loginsection() {
       </div>
     </div>
     <div className="Homesection">
-      <span className="image-container">
-        <img src={image} />
-      </span>
+      <div className="image-container">
+        <img className="home-image" src={image} />
+      </div>
     </div>
+    <br />
   </div>
 }
 
