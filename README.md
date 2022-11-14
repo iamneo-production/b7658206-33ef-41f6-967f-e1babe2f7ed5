@@ -1,14 +1,7 @@
-# 🏦 react-bank
-
-Banking app built in TypeScript, React, Redux and Node.
-There is also an option to use Strapi, but you would have to adjust the Front End to use it.
-
 Demo user (automatically created when you start the app):
 
 Login: email@example.com<br />
 Password: admin123
-
-**(Please note this app needs to be adjusted to use the new Strapi Back End. Also, the TypeScript implementation is in early stage and covers only Front End at the moment.)**
 
 ## What's inside?
 
